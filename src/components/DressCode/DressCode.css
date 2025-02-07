@@ -1,0 +1,56 @@
+.dresscode {
+  margin-top: 40px;
+  width: 100vw;
+  height: 100%;
+}
+
+/* обложка блока */
+.dresscode__bg {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  overflow: hidden;
+
+  height: 100vh;
+  width: 100%;
+}
+
+.dresscode__bg img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+/* модальное окно с текстом */
+.dresscode__modal {
+  position: absolute;
+  z-index: 10;
+  width: 90%;
+  height: 90%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 800px;
+}
+
+.modal__content {
+  padding: 20px;
+  background: white;
+}
+
+.modal__title {
+  font-weight: light;
+}
+
+.modal__text {
+  text-align: justify;
+}

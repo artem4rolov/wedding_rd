@@ -1,0 +1,64 @@
+.infoblock {
+  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+  /* padding: 10px; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: justify;
+}
+
+/* начальный текст */
+.infoblock__text {
+  width: 90%;
+  max-width: 800px;
+  font-size: 18px;
+  font-weight: lighter;
+  padding-left: 15px;
+
+  border-left: 2px solid #ccca6f;
+}
+
+/* черные блоки */
+.infoblock__item {
+  background: #000;
+  width: 90%;
+  padding: 15px 0;
+  max-width: 800px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: none;
+}
+
+.infoblock__item:nth-last-child(2) .infoblock__item-desc {
+  padding: 0;
+  border: 0;
+}
+
+.infoblock__item-title {
+  color: #ccca6f;
+  font-size: 24px;
+}
+
+.infoblock__item-desc-bold {
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.infoblock__item-desc {
+  font-size: 18px;
+  color: #fff;
+  width: 50%;
+
+  border-bottom: 2px solid #ccca6f;
+  padding-bottom: 30px;
+}
