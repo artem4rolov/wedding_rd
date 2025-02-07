@@ -1,59 +1,52 @@
 .main {
   /* width: 100vw; */
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
   position: relative;
   overflow: hidden;
+  background: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.main__shadow {
+.main_container {
+  position: relative;
+}
+
+.main__title {
   position: absolute;
-  top: 0;
-  left: 0;
+  bottom: 0;
+  color: #fff;
+  margin-bottom: 200px;
   width: 100%;
-  height: 100%;
-  background: #000;
-  opacity: 0.6;
-  z-index: 1;
+  text-align: center;
+  font-size: 50px;
 }
 
 .main__cover {
-  height: 100%;
   width: 100%;
-  object-fit: cover;
 }
-
-.main__text {
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  left: 0;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  justify-content: space-evenly;
-
-  color: white;
-  width: 100%;
-  height: 100%;
-}
-
-/* верхняя и нижняя подписи */
 
 .main__subtitle {
+  width: 100%;
+  max-width: 800px;
   font-size: 20px;
-  font-weight: 100;
-  opacity: 0.5;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: center;
+  margin-top: 25px;
 }
 
-/* центральная подпись */
-
-.main__title {
-  font-family: "Noto Serif Display";
-  font-size: 30px;
-  font-weight: bold;
-  color: #ccca6f;
+@media (max-width: 690px) {
+  .main__title {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    margin-bottom: 150px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
 }

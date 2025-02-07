@@ -1,22 +1,21 @@
-import React, { useEffect, useState } from "react";
-import "./Timeout.css";
+import React, { useEffect, useState } from 'react';
+import './Timeout.css';
 
 // import BG1 from "../../assets/img/17.jpg";
-import { BgWithGradient } from "../BgWithGradient/BgWithGradient";
 
 export const Timeout = () => {
   const [timeLeft, setTimeLeft] = useState(calculateRemainingTime());
 
   function rename(str) {
     switch (str) {
-      case "days":
-        return "Дней";
-      case "hours":
-        return "Часов";
-      case "minutes":
-        return "Минут";
-      case "seconds":
-        return "Секунд";
+      case 'days':
+        return 'Дней';
+      case 'hours':
+        return 'Часов';
+      case 'minutes':
+        return 'Минут';
+      case 'seconds':
+        return 'Секунд';
       default:
         return;
     }
@@ -40,28 +39,21 @@ export const Timeout = () => {
 
   /* traverse through the timeLeft Object
    * for making the timer UI component */
-  Object.keys(timeLeft).forEach((interval) => {
-    if (
-      !timeLeft[interval] ||
-      timeLeft[interval] == null ||
-      timeLeft[interval] === undefined
-    ) {
+  Object.keys(timeLeft).forEach(interval => {
+    if (!timeLeft[interval] || timeLeft[interval] == null || timeLeft[interval] === undefined) {
       return timerComponents.push(
         <span className={interval}>
-          {0} <p className="timer-subtext">{rename(interval)}</p>{" "}
+          {0} <p className="timer-subtext">{rename(interval)}</p>{' '}
         </span>
       );
     }
 
     timerComponents.push(
       <span className={interval}>
-        {timeLeft[interval] < 1 ? 0 : timeLeft[interval]}{" "}
-        <p className="timer-subtext">{rename(interval)}</p>{" "}
+        {timeLeft[interval] < 1 ? 0 : timeLeft[interval]} <p className="timer-subtext">{rename(interval)}</p>{' '}
       </span>
     );
   });
-
-  console.log(timeLeft);
 
   /* main function for calculating the time remaining
    * from the current date */
@@ -91,14 +83,8 @@ export const Timeout = () => {
     <>
       <div className="timerComponent">
         <div className="eventName">До свадьбы осталось:</div>
-        <div className="timer">
-          {timerComponents.length ? timerComponents : <span>00:00:00</span>}
-        </div>
+        <div className="timer">{timerComponents.length ? timerComponents : <span>00:00:00</span>}</div>
       </div>
-      <BgWithGradient
-        background="https://i.ibb.co/0ZJTMzK/17.jpg"
-        gradient={"up"}
-      />
     </>
   );
 };
