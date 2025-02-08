@@ -6,6 +6,8 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin-top: 25px;
+  gap: 25px;
 }
 
 /* доп текст */
@@ -16,7 +18,6 @@
   font-weight: lighter;
   font-style: italic;
   text-align: center;
-  margin-top: 25px;
 }
 /* основной текст */
 .location__text_primary {
@@ -29,7 +30,7 @@
 
 /* кнопка открыть карту */
 .location__button {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -44,7 +45,6 @@
   cursor: pointer;
 
   color: black;
-  margin-top: 25px;
 }
 
 button:hover {

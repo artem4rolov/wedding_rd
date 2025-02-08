@@ -1,12 +1,10 @@
 .gallery {
+  margin-top: 25px;
   height: 100%;
-  margin-bottom: 40px;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px;
 }
 
 .gallery__main {

@@ -20,6 +20,9 @@ export const Main = () => {
       </div>
       <div className="main__text">
         <div className="main__subtitle" data-aos="zoom-in" data-aos-duration="1000">
+          Если в сердце живёт любовь ….
+        </div>
+        <div className="main__subtitle" data-aos="zoom-in" data-aos-duration="1000">
           Мы приглашаем Вас разделить с нами особенный день
         </div>
       </div>

@@ -1,5 +1,16 @@
 import './App.css';
-import { Events, Main, InfoBlock, Location, Contacts, Timeout, GalleryFirst } from './components/index';
+import {
+  Attention,
+  Events,
+  Main,
+  InfoBlock,
+  Location,
+  Contacts,
+  Timeout,
+  GalleryFirst,
+  Colors,
+  ContactUsForm,
+} from './components/index';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -16,8 +27,11 @@ function App() {
       <GalleryFirst />
       <Location />
       <Events />
-      <Contacts />
+      <Colors />
+      <Attention />
       <Timeout />
+      <Contacts />
+      <ContactUsForm />
     </div>
   );
 }

@@ -60,7 +60,7 @@ export const Timeout = () => {
   function calculateRemainingTime() {
     const year = new Date().getFullYear();
 
-    var eventDate = `09/23/${year}`; // MM-DD-YYYY (31st Dec)
+    var eventDate = `07/25/${year}`; // MM-DD-YYYY (31st Dec)
 
     /* difference holds the time difference in
      * milliseconds of the event date from the

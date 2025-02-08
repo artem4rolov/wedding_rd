@@ -1,22 +1,24 @@
 .timerComponent {
   color: white;
-  background: black;
-  padding-top: 100px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
+    url('https://i.ibb.co/3YSxhdMX/timer.png');
   width: 100vw;
+  height: 100vh;
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
+  margin-top: 25px;
 }
 
 .eventName {
-  font-family: "Noto Serif Display";
+  font-family: 'Noto Serif Display';
   text-align: center;
   width: 100%;
   font-size: 24px;
 
-  margin-bottom: 40px;
+  margin-top: 50px;
 }
 
 .timer {
@@ -46,7 +48,7 @@
 .hours,
 .minutes,
 .seconds {
-  color: #969559;
+  color: #fff;
   opacity: 1;
   font-weight: bold;
   font-size: 45px;

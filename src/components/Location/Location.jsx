@@ -15,7 +15,7 @@ export const Location = () => {
         Адрес: Волгоград, г. Краснослободск, п. Вторая Пятилетка, <br />
         турбаза "Дубовая роща"
       </div>
-      <div className="location__button" data-aos="fade" data-aos-duration="2500">
+      <div className="location__button" data-aos="fade-down" data-aos-duration="1000">
         <a href="https://yandex.ru/maps/-/CHe~F864" target="norefferer">
           <button>Открыть карту</button>
         </a>
