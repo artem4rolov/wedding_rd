@@ -21,7 +21,7 @@ export const Contacts = () => {
       <div className="contacts__title">КОНТАКТЫ</div>
       <div className="contacts__content">
         <div className="contacts__content__item">
-          <div className="content__item__image" data-aos="fade" data-aos-duration="1500">
+          <div className="content__item__image" data-aos="fade" data-aos-duration="1000">
             <img src="https://i.ibb.co/j9GBDmdY/timer.png" alt="man" />
           </div>
           <div className="content__item__title">

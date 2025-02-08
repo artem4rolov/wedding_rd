@@ -20,7 +20,7 @@ export const Location = () => {
         className="location__cover"
         alt="main cover"
         data-aos="fade-down"
-        data-aos-duration="2000"
+        data-aos-duration="1000"
       />
       <div className="location__button" data-aos="fade-down" data-aos-duration="1000">
         <a href="https://yandex.ru/maps/-/CHe~F864" target="norefferer">
