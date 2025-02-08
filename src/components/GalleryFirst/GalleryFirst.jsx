@@ -9,11 +9,11 @@ export const GalleryFirst = () => {
   return (
     <div className="gallery">
       <div className="gallery__sub" data-aos="fade-down" data-aos-duration="1000">
-        <img src="https://i.ibb.co/jPz12h6X/collage1.jpg" alt="second phot" className="gallery__photo-sub" />
-        <img src="https://i.ibb.co/YwHBDTR/collage2.jpg" alt="third phot" className="gallery__photo-sub" />
+        <img src="https://i.ibb.co/TxZ06P0w/collage1.jpg" alt="second phot" className="gallery__photo-sub" />
+        <img src="https://i.ibb.co/GfGKjKk0/collage2.jpg" alt="third phot" className="gallery__photo-sub" />
       </div>
       <div className="gallery__main" data-aos="fade-down" data-aos-duration="1000">
-        <img src="https://i.ibb.co/k2PqGNR7/collage3.jpg" alt="first phot" className="gallery__photo-main" />
+        <img src="https://i.ibb.co/nsQ5XdQH/collage3.jpg" alt="first phot" className="gallery__photo-main" />
       </div>
     </div>
   );

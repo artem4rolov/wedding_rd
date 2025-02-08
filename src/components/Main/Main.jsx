@@ -8,7 +8,7 @@ export const Main = () => {
     <div className="main">
       <div className="main_container">
         <img
-          src="https://i.ibb.co/XrV4q6h2/main.jpg"
+          src="https://i.ibb.co/39MFwbYM/main.jpg"
           className="main__cover"
           alt="main cover"
           data-aos="fade"

@@ -57,3 +57,7 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.location__cover {
+  width: 100%;
+}
