@@ -13,6 +13,7 @@
 }
 
 .main_container {
+  min-height: 570px;
   position: relative;
 }
 
@@ -54,6 +55,6 @@
     margin-bottom: 150px;
     width: 100%;
     text-align: center;
-    font-size: 30px;
+    font-size: 38px;
   }
 }

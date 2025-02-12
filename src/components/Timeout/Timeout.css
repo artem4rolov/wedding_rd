@@ -1,7 +1,7 @@
 .timerComponent {
   color: white;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
-    url('https://i.ibb.co/j9GBDmdY/timer.png') center left/cover no-repeat;
+    url('https://i.ibb.co/MDHg41cZ/timer-min.jpg') center left/cover no-repeat;
   width: 100vw;
   height: 100vh;
 
@@ -13,7 +13,6 @@
 }
 
 .eventName {
-  font-family: 'Noto Serif Display';
   text-align: center;
   width: 100%;
   font-size: 24px;

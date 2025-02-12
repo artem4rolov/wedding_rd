@@ -1,10 +1,10 @@
-import { MapPin, AArrowDown, Glasses } from 'lucide-react';
+import { MapPin, Heart, PartyPopper } from 'lucide-react';
 import './Events.css';
 
 const events = [
   { time: '15:00', text: 'Сбор гостей', icon: <MapPin size={24} /> },
-  { time: '15:30', text: 'Выездная регистрация', icon: <AArrowDown size={24} /> },
-  { time: '16:00', text: 'Банкет', icon: <Glasses size={24} /> },
+  { time: '15:30', text: 'Выездная регистрация', icon: <Heart size={24} /> },
+  { time: '16:00', text: 'Банкет', icon: <PartyPopper size={24} /> },
 ];
 
 export const Events = () => {

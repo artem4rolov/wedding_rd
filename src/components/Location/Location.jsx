@@ -16,7 +16,7 @@ export const Location = () => {
         турбаза "Дубовая роща"
       </div>
       <img
-        src="https://i.ibb.co/6c2MFkPz/photo-2025-02-04-11-40-55.jpg"
+        src="https://i.ibb.co/jk8PQ08x/address.jpg"
         className="location__cover"
         alt="main cover"
         data-aos="fade-down"

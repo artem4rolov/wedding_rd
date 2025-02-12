@@ -22,10 +22,10 @@ export const Contacts = () => {
       <div className="contacts__content">
         <div className="contacts__content__item">
           <div className="content__item__image" data-aos="fade" data-aos-duration="1000">
-            <img src="https://i.ibb.co/j9GBDmdY/timer.png" alt="man" />
+            <img src="https://i.ibb.co/FkLNpXht/roman.jpg" alt="man" />
           </div>
           <div className="content__item__title">
-            <span>Роман (+фот)</span>
+            <span>Роман</span>
           </div>
           <div className="content__item__desc"></div>
           <div className="content__item__contact">
@@ -51,20 +51,16 @@ export const Contacts = () => {
           </div>
         </div>
         <div className="contacts__content__item">
-          <div
-            className="content__item__image"
-            data-aos="fade"
-            data-aos-duration="2500"
-            data-aos-delay="200">
-            <img src="https://i.ibb.co/j9GBDmdY/timer.png" alt="woman" />
+          <div className="content__item__image" data-aos="fade" data-aos-duration="1000">
+            <img src="https://i.ibb.co/RpXKKpn4/daria.jpg" alt="woman" />
           </div>
           <div className="content__item__title">
-            <span>Дарья (+фото)</span>
+            <span>Дарья</span>
           </div>
           <div className="content__item__desc"></div>
           <div className="content__item__contact">
             <span className="contact__phone" onClick={e => copyNumber(e)}>
-              (номер Даши)
+              8 902 362 32 02
             </span>
             <br />
             <br />
@@ -83,7 +79,7 @@ export const Contacts = () => {
         </div>
       </div>
       <div className="contacts__warning">
-        <span>Просьба, чтобы все прошло идеально, пожалуйста, заполните до 15.06.2025 анкету снизу ! </span>
+        <span>Просьба, чтобы все прошло идеально, пожалуйста, заполните до 15.06.2025 анкету снизу</span>
       </div>
     </div>
   );
