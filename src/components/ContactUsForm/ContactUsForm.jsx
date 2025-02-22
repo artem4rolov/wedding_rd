@@ -27,9 +27,7 @@ export const ContactUsForm = () => {
   const validate = () => {
     let newErrors = {};
     if (!formData.name.trim()) newErrors.name = 'Введите ваше имя';
-    if (!formData.attendance) newErrors.attendance = 'Выберите один из вариантов';
     if (formData.partnerName.trim() === '') newErrors.partnerName = 'Введите имя';
-    if (formData.song.trim() === '') newErrors.song = 'Введите название трека';
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
@@ -39,7 +37,7 @@ export const ContactUsForm = () => {
     if (!validate()) return;
 
     emailjs
-      .send('service_hhoqdl9', 'template_j23wnwo', formData, 'b-TOSEP45wjN8h3P2')
+      .send('service_nhonjn9', 'template_zidk8ny', formData, 'b-TOSEP45wjN8h3P2')
       .then(() => alert('Форма отправлена!'))
       .catch(err => console.error('Ошибка отправки', err));
   };
