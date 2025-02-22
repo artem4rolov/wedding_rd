@@ -68,10 +68,13 @@ export const Contacts = () => {
             <br />
             <br />
             <div className="socials">
-              <a href="#" className="socials--button" target="norefferer">
+              <a href="https://wa.clck.bar/79023623202" className="socials--button" target="norefferer">
                 <img src={WhatsApp} alt="whats-app-icon" />
               </a>
-              <a href="#" className="socials--button" target="norefferer">
+              <a
+                href="https://web.telegram.org/a/#1911648607"
+                className="socials--button"
+                target="norefferer">
                 <img src={Telegram} alt="whats-app-icon" />
               </a>
             </div>
