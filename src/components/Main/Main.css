@@ -38,6 +38,17 @@
   width: 100%;
 }
 
+.main__subscribtion {
+  width: 100%;
+  max-width: 800px;
+  font-size: 16px;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #575757;
+}
+
 .main__subtitle {
   width: 100%;
   max-width: 800px;

@@ -61,11 +61,13 @@ export const ContactUsForm = () => {
 
       <p>Уточните Ваши предпочтения в алкоголе, выбрав один или несколько вариантов:</p>
       <div className="checkbox-group column">
-        {['Вино', 'Шампанское', 'Самогон', 'Водка', 'Безалкогольные напитки'].map(drink => (
-          <label key={drink}>
-            <input type="checkbox" value={drink} onChange={handleChange} /> {drink}
-          </label>
-        ))}
+        {['Вино (красное)', 'Вино (белое)', 'Шампанское', 'Самогон', 'Водка', 'Безалкогольные напитки'].map(
+          drink => (
+            <label key={drink}>
+              <input type="checkbox" value={drink} onChange={handleChange} /> {drink}
+            </label>
+          )
+        )}
       </div>
 
       <p>Имя и фамилия вашей второй половинки</p>
